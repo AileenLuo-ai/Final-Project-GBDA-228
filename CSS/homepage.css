@@ -23,6 +23,7 @@ table {
 }
 
 .main_content {
+  margin-top: -20%;
   width: 48%;
   margin-left: 20%;
 }
@@ -49,7 +50,7 @@ table th {
 }
 
 .twitter_contain {
-  width: 400px;
+  width: 382px;
 }
 
 .twitter_wrap {
