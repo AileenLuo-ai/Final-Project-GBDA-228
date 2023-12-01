@@ -1,0 +1,23 @@
+.secondWord {
+  color: var(--lighterGrey);
+}
+
+.thirdWord {
+  color: white;
+}
+
+.top_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  .main_content {
+    width: 40%;
+  }
+  

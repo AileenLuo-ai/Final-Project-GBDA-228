@@ -1,0 +1,52 @@
+.nav_links a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: left;
+}
+
+.nav_links li {
+  list-style-type: none;
+}
+
+.nav_links li a:hover {
+  opacity: 0.2;
+  transition: ease-out;
+  transition-duration: 500ms;
+}
+
+header {
+  padding-top: 10%;
+  padding-left: 70%;
+
+  position: relative;
+}
+
+nav {
+  position: sticky;
+}
+
+table th:nth-child(even) {
+  background-color: var(--backdropGrey);
+}
+
+table th:hover {
+  background-color: var(--superLightGrey);
+  transition: ease-out;
+  transition-duration: 500ms;
+}
+
+table th {
+  text-align: left;
+  vertical-align: top;
+}
+
+table td,
+table th {
+  border: 1px solid #dddddd1a;
+  padding: 16px;
+}
+
+.twitter-tweet {
+  width: 100%;
+  height: auto;
+}

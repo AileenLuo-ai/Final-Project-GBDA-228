@@ -1,0 +1,104 @@
+:root {
+  --dividerGrey: #e1e1e1;
+  --background: #091a21;
+  --grey: #6b6b6b;
+  --calloutGrey: #f9f9f9;
+  --lighterGrey: #e1e1e17a;
+  --superLightGrey: rgba(225, 225, 225, 0.16);
+  --backdropGrey: rgba(225, 225, 225, 0.06);
+}
+
+@font-face {
+  font-family: "ABCDiatypeVariable";
+  src: url("/fonts/ABCDiatypeVariable.ttf");
+
+  font-family: "BricolageGrotesque";
+  src: url("/fonts/BricolageGrotesque.ttf");
+}
+
+body {
+  background-color: var(--background);
+}
+
+.h1 {
+  font-family: "Bricolage Grotesque";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.h2 {
+  font-family: "Bricolage Grotesque";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.05rem;
+}
+
+/* caption */
+.caption {
+  color: var(--lighterGrey, rgba(225, 225, 225, 0.48));
+  font-family: "Newsreader", serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* smallCaption */
+.smallCaption {
+  font-family: "Newsreader", serif;
+  font-size: 0.75rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p, li,
+.paragraph {
+  color: var(--calloutGrey, #f9f9f9);
+  font-family: "ABC Diatype Variable", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.main_content {
+  width: 40%;
+}
+
+/* unvisited link */
+a:link {
+  color: rgba(255, 255, 255, 0.937);
+  text-underline-offset: 0.2rem;
+}
+
+/* visited link */
+a:visited {
+  color: var(--lighterGrey);
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--grey);
+}
+
+/* selected link */
+a:active {
+  color: var(--superLightGrey);
+}
+
+a:hover {
+  opacity: 0.2;
+  transition: ease-out;
+  transition-duration: 500ms;
+  
+}
