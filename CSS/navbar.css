@@ -14,15 +14,14 @@
   transition-duration: 500ms;
 }
 
-header {
-  padding-top: 10%;
-  padding-left: 70%;
-
-  position: relative;
+#navbar {
+  position: sticky;
+  top: 8rem;
+  margin-left: 72%;
 }
 
-nav {
-  position: sticky;
+.nav_links{
+  margin-top: 64px;
 }
 
 table th:nth-child(even) {

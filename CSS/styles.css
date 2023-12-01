@@ -71,10 +71,6 @@ table {
   border-collapse: collapse;
 }
 
-.main_content {
-  width: 40%;
-}
-
 /* unvisited link */
 a:link {
   color: rgba(255, 255, 255, 0.937);

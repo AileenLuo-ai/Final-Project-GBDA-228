@@ -1,23 +1,27 @@
 .secondWord {
   color: var(--lighterGrey);
+  margin-top: -1rem;
 }
 
 .thirdWord {
   color: white;
+  margin-top: -1rem;
+}
+
+.emoji {
+  margin-top: -1rem;
 }
 
 .top_text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
+  /* margin-top: -10%; */
 }
 
 table {
-    border-collapse: collapse;
-  }
-  
-  .main_content {
-    width: 40%;
-  }
-  
+  border-collapse: collapse;
+}
+
+.main_content {
+  width: 48%;
+  margin-left: 20%;
+}
+
