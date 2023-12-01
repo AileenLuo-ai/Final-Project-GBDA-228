@@ -17,7 +17,7 @@
 
 #navbar {
   position: sticky;
-  top: 4rem;
+  top: 8rem;
   margin-left: 72%;
 }
 
@@ -29,7 +29,7 @@
   opacity: 1;
 }
 
-#itemOne, #itemTwo, #itemThree {
+#itemOne, #itemTwo {
   opacity: 0.2;
 }
 
@@ -37,7 +37,7 @@
   margin-top: 16rem;
 }
 
-#design_link {
+#itemTwo.design_link {
   margin-bottom: 2rem;
 }
 
