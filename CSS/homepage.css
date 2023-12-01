@@ -1,23 +1,25 @@
 .secondWord {
   color: var(--lighterGrey);
-  margin-top: -1rem;
+  margin-top: -1.25rem;
 }
 
 .thirdWord {
   color: white;
-  margin-top: -1rem;
+  margin-top: -1.25rem;
+  margin-bottom: 2rem;
 }
 
 .emoji {
-  margin-top: -1rem;
+  margin-top: -1.25rem;
 }
 
 .top_text {
-  /* margin-top: -10%; */
+  margin-top: -20%;
 }
 
 table {
   border-collapse: collapse;
+  margin-bottom: 4rem;
 }
 
 .main_content {
@@ -25,3 +27,34 @@ table {
   margin-left: 20%;
 }
 
+table th:nth-child(even) {
+  background-color: var(--backdropGrey);
+}
+
+table th:hover {
+  background-color: var(--superLightGrey);
+  transition: ease-out;
+  transition-duration: 500ms;
+}
+
+table th {
+  text-align: left;
+  vertical-align: top;
+}
+
+table td,
+table th {
+  border: 1px solid #dddddd1a;
+  padding: 16px;
+}
+
+.twitter_contain {
+  width: 400px;
+}
+
+.twitter_wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

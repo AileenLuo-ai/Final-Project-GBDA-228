@@ -6,6 +6,7 @@
 
 .nav_links li {
   list-style-type: none;
+  margin-bottom: 0.25rem;
 }
 
 .nav_links li a:hover {
@@ -20,32 +21,19 @@
   margin-left: 72%;
 }
 
-.nav_links{
+.nav_links {
   margin-top: 64px;
 }
 
-table th:nth-child(even) {
-  background-color: var(--backdropGrey);
+.h1 {
+  opacity: 1;
 }
 
-table th:hover {
-  background-color: var(--superLightGrey);
-  transition: ease-out;
-  transition-duration: 500ms;
+#itemOne, #itemTwo, #itemThree {
+  opacity: 0.2;
 }
 
-table th {
-  text-align: left;
-  vertical-align: top;
+.footer_nav {
+  margin-top: 16rem;
 }
 
-table td,
-table th {
-  border: 1px solid #dddddd1a;
-  padding: 16px;
-}
-
-.twitter-tweet {
-  width: 100%;
-  height: auto;
-}
