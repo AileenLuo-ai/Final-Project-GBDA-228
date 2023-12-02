@@ -10,13 +10,14 @@
 }
 
 @font-face {
-  font-family: "ABCDiatypeVariable", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  src: url("https://github.com/AileenLuo-ai/Final-Project-GBDA-228/blob/main/fonts/ABCDiatypeVariable.ttf") format("truetype");
+  font-family: "ABCDiatypeVariable";
+  src: url("https://github.com/AileenLuo-ai/Final-Project-GBDA-228/blob/main/fonts/ABCDiatypeVariable.ttf");
   font-weight: 100 1000;
 }
+
 @font-face {
-  font-family: "BricolageGrotesque", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  src: url("https://github.com/AileenLuo-ai/Final-Project-GBDA-228/blob/main/fonts/BricolageGrotesque.ttf") format("truetype");
+  font-family: "BricolageGrotesque";
+  src: url("https://github.com/AileenLuo-ai/Final-Project-GBDA-228/blob/main/fonts/BricolageGrotesque.ttf");
   font-weight: 100 1000;
 }
 
@@ -25,7 +26,7 @@ body {
 }
 
 .h1 {
-  font-family: "Bricolage Grotesque";
+  font-family: "BricolageGrotesque", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 500;
@@ -33,7 +34,7 @@ body {
 }
 
 .h2 {
-  font-family: "Bricolage Grotesque";
+  font-family: "BricolageGrotesque", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
@@ -42,7 +43,7 @@ body {
 }
 
 .h3 {
-  font-family: "Bricolage Grotesque";
+  font-family: "BricolageGrotesque", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
