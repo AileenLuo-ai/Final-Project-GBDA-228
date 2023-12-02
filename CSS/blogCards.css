@@ -21,6 +21,16 @@ a.blog {
   gap: 1rem;
 }
 
+/* smaller devices: */
+@media only screen and (max-width: 1000px) {
+
+  .flexRow {
+    display: inline-block;
+    flex-direction: column-reverse;
+  
+  }
+}
+
 .pink {
   background: linear-gradient(270deg, #ff478a -4.16%, #dd135d 99.9%);
 }

@@ -18,7 +18,7 @@
 #navbar {
   position: sticky;
   top: 8rem;
-  margin-left: 72%;
+  margin-left: 68%;
 }
 
 /* For mobile phones: */
@@ -27,8 +27,9 @@
   #navbar {
     position: relative;
     /* float: left; */
-    top: 2rem;
-    margin-left: 1rem;
+    top: 2vw;
+    margin-left: 6vw;
+    margin-bottom: 6vw;
   }
 
   .nav_links {
@@ -37,7 +38,7 @@
   }
 
   iframe {
-    width: 96%;
+    width: 88vw;
   }
   
 }
