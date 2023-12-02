@@ -11,15 +11,22 @@
 
 @font-face {
   font-family: "ABCDiatypeVariable";
-  src: url("https:/AileenLuo-ai.github.io/Final-Project-GBDA-228/fonts/ABCDiatypeVariable.ttf");
-  font-weight: 100 1000;
+  src: url("https://AileenLuo-ai.github.io/Final-Project-GBDA-228/fonts/ABCDiatypeVariable.ttf") format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal; 
+  font-variation-settings: 'wght' 300; 
 }
 
 @font-face {
   font-family: "BricolageGrotesque";
-  src: url("https:/AileenLuo-ai.github.io/Final-Project-GBDA-228/fonts/BricolageGrotesque.ttf");
-  font-weight: 100 1000;
+  src: url("https://AileenLuo-ai.github.io/Final-Project-GBDA-228/fonts/BricolageGrotesque.ttf") format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-variation-settings: 'wght' 600;
 }
+
 
 body {
   background-color: var(--background);
