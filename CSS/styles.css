@@ -21,19 +21,6 @@ body {
   background-color: var(--background);
 }
 
-/* For mobile phones: */
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: yellow;
-    color: yellow;
-  }
-  .mainContent {
-    width: 100%;
-    margin-left: 4%;
-    /* margin-left: 8%;   */
-  }
-}
-
 .h1 {
   font-family: "Bricolage Grotesque";
   font-size: 2.25rem;
