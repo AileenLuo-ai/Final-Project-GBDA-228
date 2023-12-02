@@ -1,0 +1,57 @@
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .mainContent {
+    width: 100%;
+  }
+}
+
+/* Desktop first: */
+#cardPink,
+.card,
+a.blog {
+  display: flex;
+  padding: 1rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+  flex-grow: 1;
+  border-radius: 1vw;
+  flex-direction: column;
+  border: 2px solid rgba(255, 255, 255, 0.16);
+  text-decoration: none;
+}
+
+.flexContainer {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.pink {
+  background: linear-gradient(270deg, #ff478a -4.16%, #dd135d 99.9%);
+}
+
+.purple {
+  background: linear-gradient(268deg, #9e33b6 1.71%, #742fb4 93.29%);
+}
+
+.darkBlue {
+  background: linear-gradient(269deg, #101c59 8.04%, #001240 93.92%);
+}
+
+.green {
+  background: linear-gradient(269deg, #5fb93f -81.96%, #008036 93.9%);
+}
+
+#lightBlue {
+  background: linear-gradient(269deg, #4864d7 -81.96%, #1e1ec0 93.9%);
+  /* width: 95%; */
+}
+
+.flexRow {
+  display: flex;
+  width: 100%;
+  flex-grow: initial;
+  gap: 1rem;
+}

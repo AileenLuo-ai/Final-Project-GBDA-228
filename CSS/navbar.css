@@ -29,7 +29,8 @@
   opacity: 1;
 }
 
-#itemOne, #itemTwo {
+#itemOne,
+#itemTwo {
   opacity: 0.2;
 }
 
@@ -37,7 +38,15 @@
   margin-top: 16rem;
 }
 
-#itemTwo.design_link {
+.design_link.lastItem {
   margin-bottom: 2rem;
 }
 
+/* For mobile phones: */
+@media screen and (max-width: 768px) {
+  div.mainContent {
+    width: 100%;
+    margin-left: 4%;
+    /* margin-left: 8%;   */
+  }
+}

@@ -38,6 +38,16 @@ body {
   letter-spacing: -0.05rem;
 }
 
+.h3 {
+  font-family: "Bricolage Grotesque";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.03rem;
+  color: white;
+}
+
 /* caption */
 .caption {
   color: var(--lighterGrey, rgba(225, 225, 225, 0.48));
@@ -55,9 +65,11 @@ body {
   font-style: italic;
   font-weight: 400;
   line-height: normal;
+  color: var(--dividerGrey);
 }
 
-p, li,
+p,
+li,
 .paragraph {
   color: var(--calloutGrey, #f9f9f9);
   font-family: "ABC Diatype Variable", "Gill Sans", "Gill Sans MT", Calibri,
@@ -97,5 +109,12 @@ a:hover {
   opacity: 0.2;
   transition: ease-out;
   transition-duration: 500ms;
-  
+}
+
+p#greyContent {
+  color: #b3b3b3;
+}
+
+hr {
+  opacity: 0.2;
 }

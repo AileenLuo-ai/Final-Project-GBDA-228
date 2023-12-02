@@ -1,3 +1,12 @@
+/* For mobile phones: */
+@media only screen and (max-width: 768px){
+  .mainContent {
+    width: 100%;
+    margin-left: 4%;
+    /* margin-left: 8%;   */
+  }
+}
+
 .secondWord {
   color: var(--lighterGrey);
   margin-top: -1.25rem;
