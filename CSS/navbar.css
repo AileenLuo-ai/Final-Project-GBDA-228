@@ -1,3 +1,18 @@
+/* override nav link styling*/
+.h1 {
+  opacity: 1;
+}
+
+#itemOne,
+#itemTwo {
+  opacity: 0.2;
+}
+
+.nav_links {
+  margin-top: 64px;
+}
+
+
 .nav_links a {
   text-decoration: none;
   color: #ffffff;
@@ -19,6 +34,10 @@
   position: sticky;
   top: 8rem;
   margin-left: 68%;
+}
+
+.design_link.lastItem {
+  margin-bottom: 2rem;
 }
 
 /* For mobile phones: */
@@ -43,25 +62,8 @@
   
 }
 
-
-.nav_links {
-  margin-top: 64px;
-}
-
-.h1 {
-  opacity: 1;
-}
-
-#itemOne,
-#itemTwo {
-  opacity: 0.2;
-}
-
+/* add background behind spline mole (my own work) */
 .footer_nav {
   margin-top: 16rem;
   background-color: #121316;
-}
-
-.design_link.lastItem {
-  margin-bottom: 2rem;
 }

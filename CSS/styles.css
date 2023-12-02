@@ -19,6 +19,7 @@
   font-variation-settings: "wght" 600;
 }
 
+/* dark blue color for all pages */
 body {
   background-color: var(--background);
 }

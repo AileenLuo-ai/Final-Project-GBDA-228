@@ -66,6 +66,7 @@ table th {
 
 .twitter_contain {
   width: 23vw;
+  float: left;
 }
 
 .twitter_wrap {

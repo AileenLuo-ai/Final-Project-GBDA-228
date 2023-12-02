@@ -1,6 +1,7 @@
+/* full width banner */
 .top_banner {
   display: block;
-  overflow: clip;
+  overflow: clip; /* prevent scrolling*/
   margin-top: -1rem;
   width: 100vw;
   height: auto;
