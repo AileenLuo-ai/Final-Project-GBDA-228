@@ -1,5 +1,7 @@
 .top_banner {
+  display: block;
+  overflow: clip;
   margin-top: -1rem;
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
