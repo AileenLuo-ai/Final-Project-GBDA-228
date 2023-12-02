@@ -1,12 +1,3 @@
-/* For mobile phones: */
-@media only screen and (max-width: 768px){
-  .mainContent {
-    width: 100%;
-    margin-left: 4%;
-    /* margin-left: 8%;   */
-  }
-}
-
 .secondWord {
   color: var(--lighterGrey);
   margin-top: -1.25rem;
@@ -35,6 +26,16 @@ table {
   margin-top: -20%;
   width: 48%;
   margin-left: 16%;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+
+  .main_Content {
+    width: 100%;
+    margin-left: 4%;
+    /* margin-left: 8%;   */
+  }
 }
 
 table th:nth-child(even) {
@@ -68,3 +69,4 @@ table th {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
