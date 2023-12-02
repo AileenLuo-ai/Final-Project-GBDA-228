@@ -3,7 +3,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
 
     <title>Home - Aileen's Library Website - GBDA 228</title>
 
@@ -22,11 +25,13 @@
   </head>
 
   <body>
-    <img
-      class="top_banner"
-      src="assets/lgIllosBanner.svg"
-      alt="banner of fun curious creatures"
-    />
+    <picture class="top_banner">
+      <source media="(max-width: 799px)" srcset="assets/smIllosBanner.svg" />
+      <img
+        src="assets/lgIllosBanner.svg"
+        alt="banner of fun curious creatures"
+      />
+    </picture>
 
     <nav id="navbar">
       <ul class="nav_links">

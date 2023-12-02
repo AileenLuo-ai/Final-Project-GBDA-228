@@ -30,15 +30,15 @@ table {
 
 /* For mobile phones: */
 @media only screen and (max-width: 600px) {
-
   body {
     margin: 0;
   }
 
   .main_content {
     margin-top: 16rem;
-    width: 96%;
+    width: 92vw;
     margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
@@ -64,13 +64,42 @@ table th {
 }
 
 .twitter_contain {
-  width: 382px;
+  width: 360px;
 }
 
 .twitter_wrap {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+
+  table {
+    display: block;
+  }
+  tr > th {
+    display: block;
+  }
+  
+  tr > td {
+    display: block;
+  }
+  
+  tr {
+    display: block;
+  }
+  
+  .twitter_contain {
+    /* the twitter api only allows direct pixel values 
+    so I am unable to use 90% or any other relative units */
+    width: 330px; 
+  }
+
+  .twitter_wrap {
+    justify-content: space-around;
+  }
+  
+}
