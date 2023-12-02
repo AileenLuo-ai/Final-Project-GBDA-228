@@ -11,10 +11,13 @@
 
 @font-face {
   font-family: "ABCDiatypeVariable";
-  src: url(".../fonts/ABCDiatypeVariable.ttf");
-
+  src: url("../fonts/ABCDiatypeVariable.ttf") format("truetype");
+  font-weight: 100 1000;
+}
+@font-face {
   font-family: "BricolageGrotesque";
-  src: url(".../fonts/BricolageGrotesque.ttf");
+  src: url("../fonts/BricolageGrotesque.ttf") format("truetype");
+  font-weight: 100 1000;
 }
 
 body {
